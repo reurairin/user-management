@@ -1,3 +1,5 @@
-<div *ngFor="let user of data$ | async">
-  <p>{{ user.username }}</p>
-</div>
+<ul>
+  <li *ngFor="let user of data$ | async">
+    {{ user.username }}
+  </li>
+</ul>
